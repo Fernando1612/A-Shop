@@ -9,18 +9,5 @@
 #include <stdlib.h>
 #include <string.h>
 #include <stdbool.h>
-
 #include "Acceso.h"
-typedef struct {
-    char nombre[20];
-    char user[8];
-    char contrasena[8];
-    char area[5];
-    int sueldo;
-}Empleado;
-typedef struct {
-    int costo;
-    int precio;
-    char nombre[10];
-    char categoria[10];
-}Producto;
+

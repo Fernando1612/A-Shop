@@ -7,7 +7,6 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		54C111242248573E00F8123E /* main.c in Sources */ = {isa = PBXBuildFile; fileRef = 54C111232248573E00F8123E /* main.c */; };
 		54C1112C224858EA00F8123E /* Acceso.c in Sources */ = {isa = PBXBuildFile; fileRef = 54C1112B224858EA00F8123E /* Acceso.c */; };
 		54C1112E224902E700F8123E /* Principal.c in Sources */ = {isa = PBXBuildFile; fileRef = 54C1112D224902E700F8123E /* Principal.c */; };
 /* End PBXBuildFile section */
@@ -26,10 +25,11 @@
 
 /* Begin PBXFileReference section */
 		54C111202248573E00F8123E /* A-Shop */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = "A-Shop"; sourceTree = BUILT_PRODUCTS_DIR; };
-		54C111232248573E00F8123E /* main.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = main.c; sourceTree = "<group>"; };
 		54C1112A224858EA00F8123E /* Acceso.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Acceso.h; sourceTree = "<group>"; };
 		54C1112B224858EA00F8123E /* Acceso.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = Acceso.c; sourceTree = "<group>"; };
 		54C1112D224902E700F8123E /* Principal.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = Principal.c; sourceTree = "<group>"; };
+		54C1112F22491A8600F8123E /* usuarios.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = usuarios.txt; sourceTree = "<group>"; };
+		54FAEFBF22502A48004BF312 /* Lista.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Lista.h; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -62,10 +62,11 @@
 		54C111222248573E00F8123E /* A-Shop */ = {
 			isa = PBXGroup;
 			children = (
-				54C111232248573E00F8123E /* main.c */,
 				54C1112A224858EA00F8123E /* Acceso.h */,
 				54C1112B224858EA00F8123E /* Acceso.c */,
 				54C1112D224902E700F8123E /* Principal.c */,
+				54FAEFBF22502A48004BF312 /* Lista.h */,
+				54C1112F22491A8600F8123E /* usuarios.txt */,
 			);
 			path = "A-Shop";
 			sourceTree = "<group>";
@@ -126,7 +127,6 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				54C111242248573E00F8123E /* main.c in Sources */,
 				54C1112E224902E700F8123E /* Principal.c in Sources */,
 				54C1112C224858EA00F8123E /* Acceso.c in Sources */,
 			);
